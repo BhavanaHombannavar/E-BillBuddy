@@ -1,0 +1,72 @@
+legend {
+	width: auto;
+}
+li {
+	list-style: none;
+}
+.glyphicon {
+	color: #5555ff;
+}
+.input.date select {
+	width: 100px;
+	margin-right: 10px; 
+}
+header {
+	background: #F1F8F9;
+}
+.header-content,
+.nav-content,
+.page-content,
+.footer-content {
+	width: 100%;
+	margin: 10px auto;
+}
+#top-nav,
+#top-contacts,
+#top-social,
+#main-nav {
+	margin: 10px 0;
+}
+#top-contacts > li {
+	list-style: none;
+	display: inline-block;
+	font-size: 14px;
+	padding: 10px 15px 0 0;
+}
+#top-social > li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+#top-social .icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    border: 1px solid #fff;
+    background: url('../img/social2.png') no-repeat;
+}
+#top-social .icon-fb {
+	background-position: -48px -7px;
+}
+#top-social .icon-tw {
+	background-position: -7px -7px;
+}
+#top-social .icon-gp {
+	background-position: -89px -7px;
+}
+#top-nav > li {
+	display: inline-block;
+	padding-left: 20px;
+}
+#main-menu {
+	/*-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.2);
+	box-shadow: 0 1px 6px rgba(0,0,0,0.2);*/
+}
+#main-nav > li {
+	display: inline-block;
+}
+#main-nav > li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 10px 20px;
+}

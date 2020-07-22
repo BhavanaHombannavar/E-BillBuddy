@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../../fonts/Open-Sans-300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../../fonts/Open-Sans-400.woff) format('woff');
+}
+
+.required > label:after {
+    content: ' *';
+    color: #C3232D;
+}
+
+.btn-success a,
+.btn-info a,
+.btn-primary a {
+	color: white;
+}
+input[type=number] {
+    text-align: right;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mb-05 {
+	margin-bottom: 5px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-10 {
+	margin-top: 20px;
+}
+
+.mt-05 {
+	margin-top: 20px;
+}
+div.input {
+	margin-bottom: 10px;
+}
+#order-table th {
+  white-space: nowrap;
+}

@@ -1,0 +1,18 @@
+header {
+	margin-bottom: 20px;
+}
+legend {
+	width: auto;
+}
+li {
+	list-style: none;
+}
+header {
+	background: #ffe6ac;
+}
+#top-nav {
+	margin: 10px 0;
+}
+.btn-toolbar {
+	margin: 10px 0;
+}
